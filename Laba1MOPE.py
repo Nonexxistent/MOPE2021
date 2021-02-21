@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 a0,a1,a2,a3 = 2,4,6,8
 X1,X2,X3 = [r.randint(0,20) for i in range(0,8)],[r.randint(0,20) for i in range(0,8)],[r.randint(0,20) for i in range(0,8)]
 Y = [(a0+a1*X1[i]+a2*X2[i]+a3*X3[i]) for i in range(0,8)]
-X0=[((max(X1)+min(X1))/2),((max(X2)+min(X2))/2),((max(X3)+min(X3))/2),((max(Y)+min(Y))/2)]
+X0=[((max(X1)+min(X1))/2),((max(X2)+min(X2))/2),((max(X3)+min(X3))/2)]
 dx=[(max(X1)-X0[0]),(max(X2)-X0[1]),(max(X3)-X0[2])]
 XN1,XN2,XN3 = [round((X1[i]-X0[0])/dx[0],2) for i in range(0,8)],[round((X2[i]-X0[1])/dx[1],2) for i in range(0,8)],[round((X3[i]-X0[2])/dx[2],2) for i in range(0,8)]
 yET=a0+a1*X0[0]+a2*X0[1]+a3*X0[2]
@@ -23,8 +23,8 @@ table.add_rows([
         [ "6" ,  X1[5] ,  X2[5] ,  X3[5] , Y[5], "", XN1[5] , XN2[5] , XN3[5] ],
         [ "7" ,  X1[6] ,  X2[6] ,  X3[6] , Y[6], "", XN1[6] , XN2[6] , XN3[6] ],
         [ "8" ,  X1[7] ,  X2[7] ,  X3[7] , Y[7], "", XN1[7] , XN2[7] , XN3[7] ],
-        [ "X0",  X0[0] ,  X0[1] ,  X0[2] ,X0[3], "",   ""   ,   ""   ,   ""   ],
-        [ "dx",  dx[0] ,  dx[1] ,  dx[2] , ""  , "",   ""   ,   ""   ,   ""   ]])
+        [ "X0",  X0[0] ,  X0[1] ,  X0[2] , yET , "",   ""   ,   ""   ,   ""   ],
+        [ "dx",  dx[0] ,  dx[1] ,  dx[2] ,  "" , "",   ""   ,   ""   ,   ""   ]])
 print(table)
 print("Довільні коефіцієнти: a0={0}, a1={1}, a2={2}, a3={3}".format(a0, a1, a2, a3))
 print("Рівняння регресії: 2 + 4*X1 + 6*X2 + 8*X3")
