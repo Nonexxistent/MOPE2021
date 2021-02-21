@@ -1,1 +1,1 @@
-# MOPE2021
+# MOPE2021 Gladkov Daniil
