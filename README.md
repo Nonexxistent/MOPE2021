@@ -1,5 +1,5 @@
 # MOPE Gladkov Daniil ІО-92
 ## Лабораторна робота №1
-![alt text](png/Laba1MOPE.png)
+![alt text](Laba1/Laba1MOPE.png)
 ## Лабораторна робота №2
-![alt text](png/Laba2MOPE.png)
+![alt text](Laba2/Laba2MOPE.png)
