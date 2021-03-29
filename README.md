@@ -1,4 +1,4 @@
-# MOPE Gladkov Daniil ІО-92
+# MOPE2021 Gladkov Daniil ІО-92
 ## Лабораторна робота №1
 ![alt text](Laba1/Laba1MOPE.png)
 ## Лабораторна робота №2
