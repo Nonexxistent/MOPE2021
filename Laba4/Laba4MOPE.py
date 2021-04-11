@@ -113,6 +113,8 @@ class Laba4:
         skm.fit(X, Y)
         self.Bnew = skm.coef_
         self.Bnew = [round(i, 4) for i in self.Bnew]
+        print('Коефіцієнти з нормованими Х:')
+        print(self.Bnew)
         return self.Bnew
 
     def main1(self, N, M):
