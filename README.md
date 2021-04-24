@@ -7,3 +7,5 @@
 ![alt text](Laba3/Laba3MOPE.png)
 ## Лабораторна робота №4
 ![alt text](Laba4/Laba4MOPE.png)
+## Лабораторна робота №5
+![alt text](Laba5/Laba5MOPE.png)
